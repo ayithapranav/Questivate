@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questivate - Student Feedback System</title>
+    <meta name="description" content="A Pokémon-inspired student feedback system for improving education">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="flex items-center">
+                <img src="assets/images/logo.svg" alt="Questivate Logo" class="h-10 mr-3">
+                <h1 class="text-2xl font-bold">Questivate</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#features" class="hover:text-blue-200 transition">Features</a></li>
+                    <li><a href="#about" class="hover:text-blue-200 transition">About</a></li>
+                    <li><a href="#team" class="hover:text-blue-200 transition">Team</a></li>
+                    <li><a href="#blog" class="hover:text-blue-200 transition">Blog</a></li>
+                    <li><a href="app.html" class="bg-yellow-400 text-blue-800 px-4 py-2 rounded-full font-bold hover:bg-yellow-300 transition">Sign In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="py-20 bg-gradient-to-b from-blue-600 to-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-5xl font-bold mb-6">Make Learning Better, Together</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">Questivate transforms how students provide feedback to teachers with an engaging, Pokémon-inspired experience.</p>
+                <div class="flex justify-center">
+                    <a href="app.html" class="bg-yellow-400 text-blue-800 px-8 py-3 rounded-full text-lg font-bold hover:bg-yellow-300 transition mr-4">Get Started</a>
+                    <a href="#features" class="border-2 border-white px-8 py-3 rounded-full text-lg font-bold hover:bg-white hover:text-blue-800 transition">Learn More</a>
+                </div>
+                <div class="mt-16">
+                    <img src="assets/images/pokeball.svg" alt="Pokéball" class="h-32 mx-auto animate-bounce">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-16 text-blue-800">How Questivate Works</h2>
+                
+                <div class="grid md:grid-cols-3 gap-10">
+                    <!-- Feature 1 -->
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-800">Anonymous Feedback</h3>
+                        <p class="text-gray-700">Students can share feedback without worry. Teachers only see helpful summaries, not individual names.</p>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-800">AI Summarization</h3>
+                        <p class="text-gray-700">Our AI compiles multiple feedbacks into concise, actionable insights for teachers.</p>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-lg">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 text-blue-800">Game Rewards</h3>
+                        <p class="text-gray-700">Submit feedback, unlock fun! Our Pokémon-inspired game rewards students for participation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-1/2 mb-10 md:mb-0">
+                        <img src="assets/images/pokeball-open.svg" alt="Open Pokéball" class="max-w-md mx-auto">
+                    </div>
+                    <div class="md:w-1/2 md:pl-10">
+                        <h2 class="text-4xl font-bold mb-6 text-blue-800">About Questivate</h2>
+                        <p class="text-lg text-gray-700 mb-6">Questivate was created to solve a common problem in education: the lack of effective student feedback mechanisms. We believe that students should have a voice in their education, and teachers should have access to the insights they need to improve.</p>
+                        <p class="text-lg text-gray-700 mb-6">By combining anonymous feedback with an engaging game experience, we've created a system that students actually want to use.</p>
+                        <p class="text-lg text-gray-700">Our mission is to improve education through better communication and feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-16 text-blue-800">Our Team</h2>
+                
+                <div class="grid md:grid-cols-4 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="text-center">
+                        <div class="bg-gray-200 rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                            <!-- Placeholder for team member photo -->
+                            <div class="flex items-center justify-center h-full text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800">Alex Johnson</h3>
+                        <p class="text-gray-600">Founder & Developer</p>
+                    </div>
+                    
+                    <!-- Team Member 2 -->
+                    <div class="text-center">
+                        <div class="bg-gray-200 rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                            <div class="flex items-center justify-center h-full text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800">Sam Rodriguez</h3>
+                        <p class="text-gray-600">Education Specialist</p>
+                    </div>
+                    
+                    <!-- Team Member 3 -->
+                    <div class="text-center">
+                        <div class="bg-gray-200 rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                            <div class="flex items-center justify-center h-full text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800">Jamie Kim</h3>
+                        <p class="text-gray-600">UX Designer</p>
+                    </div>
+                    
+                    <!-- Team Member 4 -->
+                    <div class="text-center">
+                        <div class="bg-gray-200 rounded-full w-40 h-40 mx-auto mb-4 overflow-hidden">
+                            <div class="flex items-center justify-center h-full text-gray-400">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-800">Taylor Patel</h3>
+                        <p class="text-gray-600">AI Specialist</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-center mb-16 text-blue-800">Latest Updates</h2>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Blog Post 1 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-blue-200"></div>
+                        <div class="p-6">
+                            <p class="text-sm text-blue-600 mb-2">April 10, 2025</p>
+                            <h3 class="text-xl font-bold mb-3 text-blue-800">Questivate Launches at Five New Schools</h3>
+                            <p class="text-gray-700 mb-4">We're excited to announce that Questivate is now being used at five additional schools across the country.</p>
+                            <a href="#" class="text-blue-600 font-bold hover:text-blue-800">Read more →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 2 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-blue-200"></div>
+                        <div class="p-6">
+                            <p class="text-sm text-blue-600 mb-2">March 28, 2025</p>
+                            <h3 class="text-xl font-bold mb-3 text-blue-800">New Game Features Coming Soon</h3>
+                            <p class="text-gray-700 mb-4">We're developing exciting new game features that will make providing feedback even more engaging.</p>
+                            <a href="#" class="text-blue-600 font-bold hover:text-blue-800">Read more →</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 3 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-lg">
+                        <div class="h-48 bg-blue-200"></div>
+                        <div class="p-6">
+                            <p class="text-sm text-blue-600 mb-2">March 15, 2025</p>
+                            <h3 class="text-xl font-bold mb-3 text-blue-800">The Impact of Student Feedback</h3>
+                            <p class="text-gray-700 mb-4">Research shows that regular student feedback can significantly improve teaching effectiveness.</p>
+                            <a href="#" class="text-blue-600 font-bold hover:text-blue-800">Read more →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 bg-blue-800 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold mb-6">Ready to Transform Feedback at Your School?</h2>
+                <p class="text-xl mb-10 max-w-2xl mx-auto">Join the growing number of schools using Questivate to improve education through better feedback.</p>
+                <a href="app.html" class="bg-yellow-400 text-blue-800 px-8 py-3 rounded-full text-lg font-bold hover:bg-yellow-300 transition">Get Started Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-white py-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <img src="assets/images/logo.svg" alt="Questivate Logo" class="h-10 mb-4">
+                    <p class="text-blue-300">Making education better through feedback.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Features</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-300 hover:text-white">Anonymous Feedback</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">AI Summarization</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Game Elements</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Admin Dashboard</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Company</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-300 hover:text-white">About Us</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Team</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Blog</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold mb-4">Legal</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-blue-300 hover:text-white">Privacy Policy</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Terms of Service</a></li>
+                            <li><a href="#" class="text-blue-300 hover:text-white">Data Protection</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-10 pt-6 text-center md:text-left text-blue-400">
+                <p>&copy; 2025 Questivate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/utils.js"></script>
+</body>
+</html>
