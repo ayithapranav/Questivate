@@ -8,12 +8,13 @@ import { getFirestore, collection, addDoc, query, where, getDocs, Timestamp, ord
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "questivate.firebaseapp.com",
-  projectId: "questivate",
-  storageBucket: "questivate.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyAwS_0ZDVUdvpx7EyFzf4wmFTw853iqbus",
+  authDomain: "questivate-83f1d.firebaseapp.com",
+  databaseURL: "https://questivate-83f1d-default-rtdb.firebaseio.com",
+  projectId: "questivate-83f1d",
+  storageBucket: "questivate-83f1d.firebasestorage.app",
+  messagingSenderId: "69631623168",
+  appId: "1:69631623168:web:3d3ef1670c99273f5418e5"
 };
 
 // Initialize Firebase
@@ -23,10 +24,10 @@ const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
 // School domain restriction for authentication
-const ALLOWED_DOMAINS = ['school.edu']; // Replace with your school domain
+const ALLOWED_DOMAINS = ['isd194.org']; // Replace with your school domain
 
 // Admin email configuration
-const ADMIN_EMAILS = ['your.email@example.com']; // Replace with your email
+const ADMIN_EMAILS = ['ayithpranav1@gmail.com']; // Replace with your email
 
 /**
  * Authenticate user with Google
